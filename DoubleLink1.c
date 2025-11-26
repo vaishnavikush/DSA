@@ -39,6 +39,7 @@ do{
    p=p->next;
 }while(p!=NULL);
 }
+
 void main(){
  end=start=NULL;
  int c;
@@ -54,3 +55,4 @@ void main(){
         ShowNodes();
  }while(c!=3);
 }
+
