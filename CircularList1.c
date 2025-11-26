@@ -27,7 +27,6 @@ else{
         ptr->next=start;
         last->next=ptr;
     }
-
 }
 }
 
@@ -56,3 +55,4 @@ void main(){
                         ShowStudent();
     }while(c!=3);
 }
+
