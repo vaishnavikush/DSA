@@ -7,6 +7,7 @@ for(int i=1;i<arrsize;i++){
 }
 return -1;
 }
+
 void main(){
 int arr[]={2,3,65,8,98,2};
 int size=sizeof (arr)/sizeof (int);
@@ -22,4 +23,5 @@ else
 printf("\nValue is present at index %d",search);
 printf("\nAnd the Value is %d",value);
 }
+
 
