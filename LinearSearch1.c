@@ -1,4 +1,5 @@
 #include<stdio.h>
+
 int LinerSearch(int arr[],int val,int arrsize){
 for(int i=1;i<arrsize;i++){
     if(arr[i]==val){
@@ -23,5 +24,6 @@ else
 printf("\nValue is present at index %d",search);
 printf("\nAnd the Value is %d",value);
 }
+
 
 
