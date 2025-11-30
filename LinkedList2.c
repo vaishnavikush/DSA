@@ -57,7 +57,6 @@ for(p=start;p!=NULL;p=p->next){
     printf("----------\n");
 }
 }
-
 void main(){
 start=NULL;
 int c;
@@ -76,4 +75,5 @@ do{
         DeleteStudent();
 }while(c!=4);
 }
+
 
