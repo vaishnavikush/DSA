@@ -23,6 +23,7 @@ else{
     }
 }
 }
+
 void Show(){
     struct queue *p;
     if(front==NULL){
@@ -65,4 +66,5 @@ else if(c==3)
     Pop();
 }while(c!=4);
 }
+
 
