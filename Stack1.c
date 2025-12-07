@@ -23,7 +23,6 @@ else{
     }
 }
 }
-
 void Pop(){
     if(top==NULL){
         printf("\nAdd Some Nodes First");
@@ -88,3 +87,4 @@ do{
 
 }while(c!=5);
 }
+
