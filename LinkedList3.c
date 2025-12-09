@@ -28,7 +28,6 @@ void  AddBeg(){
         start=ptr;
     }
 }
-
 void  AddMid(){
 struct Employee *ptr,*p;
 int rno;
@@ -93,4 +92,5 @@ do{
 }while(c!=5);
 
 }
+
 
