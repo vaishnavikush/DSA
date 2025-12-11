@@ -29,6 +29,7 @@ else{
     }
 }
 }
+
 void  DeleteStudent(){
     int no;
     printf("\nEnter Rollno To Delete");
@@ -101,3 +102,4 @@ void main(){
                         ShowStudent();
     }while(c!=4);
 }
+
