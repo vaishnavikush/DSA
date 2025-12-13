@@ -15,7 +15,6 @@ else{
     scanf("%d",&ptr->rollno);
     printf("\nEnter Student Name");
     scanf("%s",&ptr->name);
-
 }
 return ptr;
 };
@@ -125,3 +124,4 @@ void main(){
              ShowNodes();
  }while(c!=6);
 }
+
