@@ -53,7 +53,6 @@ while(p!=NULL){
         }
     p=p->next;
 }
-
 }
 void  ShowNodes(){
 struct Student *p;
@@ -83,3 +82,4 @@ void main(){
         ShowNodes();
  }while(c!=4);
 }
+
