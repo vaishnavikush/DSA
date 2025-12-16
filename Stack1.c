@@ -49,7 +49,6 @@ while(ptr!=NULL){
 }
 }
 }
-
 int peak(){
 if(top==NULL){
     return -1;
@@ -87,4 +86,5 @@ do{
 
 }while(c!=5);
 }
+
 
