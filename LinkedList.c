@@ -28,7 +28,6 @@ else{
     }
 }
 }
-
 void ShowStudent(){
 struct Student *p;
 for(p=start;p!=NULL;p=p->next){
@@ -52,4 +51,5 @@ do{
         ShowStudent();
 }while(c!=3);
 }
+
 
