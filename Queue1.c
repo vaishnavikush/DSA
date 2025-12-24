@@ -46,6 +46,7 @@ front=ptr->next;
 free(ptr);
 }
 }
+
 void main(){
     rare=front=NULL;
 int c;
@@ -64,6 +65,7 @@ else if(c==3)
     Pop();
 }while(c!=4);
 }
+
 
 
 
