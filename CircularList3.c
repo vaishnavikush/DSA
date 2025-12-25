@@ -33,6 +33,7 @@ void AddEnd(){
             p->next=ptr;
     }
 }
+
 void  AddBeg(){
 struct Student *p=start;
 if(start==NULL){
@@ -99,4 +100,5 @@ do{
             ShowNode();
 }while(c!=5);
 }
+
 
